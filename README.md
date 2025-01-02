@@ -19,8 +19,10 @@ This project includes scripts and resources to enable location services on a Win
 
 ### 1. Enable Location Services
 - Download the `gps_on.reg` file from the `file_links.txt`.
-- Double-click the `gps_on.reg` file to add it to the Windows Registry.  
-  > **Note**: Administrator privileges are required.
+- Open PowerShell with administrator privileges.
+- Run the script using the following command:
+  ```powershell
+  regedit /s gps_on.reg
 
 ### 2. Retrieve GPS Coordinates
 - Download the `gps.ps1` file from the `file_links.txt`.
